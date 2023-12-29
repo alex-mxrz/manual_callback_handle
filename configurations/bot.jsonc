@@ -1,0 +1,32 @@
+{
+    // Define your bot token here
+    "token": "",
+    // Define your bot info here
+    // When the bot is started or stopped, the bot informatin will be updated
+    // If use "m_change_info" in telegram_bot constructor, otherwise it`s do nothing
+    "status_info": {
+        "start": {
+            "name": "",
+            "description": "",
+            "short_description": ""
+        },
+        "stop": {
+            "name": "",
+            "description": "",
+            "short_description": ""
+        }
+    },
+    "commands_handler": [
+        {
+            "scope": {
+                "type": "all_private_chats"
+            },
+            "commands": [
+                {
+                    "command": "start",
+                    "description": "..."
+                }
+            ]
+        }
+    ]
+}
